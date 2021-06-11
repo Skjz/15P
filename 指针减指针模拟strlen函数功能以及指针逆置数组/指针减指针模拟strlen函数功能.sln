@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "指针减指针模拟strlen函数功能", "指针减指针模拟strlen函数功能\指针减指针模拟strlen函数功能.vcxproj", "{D6E510BB-A06F-46FE-B456-B9F1F5309F02}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "取模判断", "取模判断\取模判断.vcxproj", "{20165C13-921C-4BEA-A9E5-9E92557E3B7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6E510BB-A06F-46FE-B456-B9F1F5309F02}.Debug|x64.ActiveCfg = Debug|x64
+		{D6E510BB-A06F-46FE-B456-B9F1F5309F02}.Debug|x64.Build.0 = Debug|x64
+		{D6E510BB-A06F-46FE-B456-B9F1F5309F02}.Debug|x86.ActiveCfg = Debug|Win32
+		{D6E510BB-A06F-46FE-B456-B9F1F5309F02}.Debug|x86.Build.0 = Debug|Win32
+		{D6E510BB-A06F-46FE-B456-B9F1F5309F02}.Release|x64.ActiveCfg = Release|x64
+		{D6E510BB-A06F-46FE-B456-B9F1F5309F02}.Release|x64.Build.0 = Release|x64
+		{D6E510BB-A06F-46FE-B456-B9F1F5309F02}.Release|x86.ActiveCfg = Release|Win32
+		{D6E510BB-A06F-46FE-B456-B9F1F5309F02}.Release|x86.Build.0 = Release|Win32
+		{20165C13-921C-4BEA-A9E5-9E92557E3B7D}.Debug|x64.ActiveCfg = Debug|x64
+		{20165C13-921C-4BEA-A9E5-9E92557E3B7D}.Debug|x64.Build.0 = Debug|x64
+		{20165C13-921C-4BEA-A9E5-9E92557E3B7D}.Debug|x86.ActiveCfg = Debug|Win32
+		{20165C13-921C-4BEA-A9E5-9E92557E3B7D}.Debug|x86.Build.0 = Debug|Win32
+		{20165C13-921C-4BEA-A9E5-9E92557E3B7D}.Release|x64.ActiveCfg = Release|x64
+		{20165C13-921C-4BEA-A9E5-9E92557E3B7D}.Release|x64.Build.0 = Release|x64
+		{20165C13-921C-4BEA-A9E5-9E92557E3B7D}.Release|x86.ActiveCfg = Release|Win32
+		{20165C13-921C-4BEA-A9E5-9E92557E3B7D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3ADDB9D0-C5C0-4159-B6BB-29411606F9C8}
+	EndGlobalSection
+EndGlobal

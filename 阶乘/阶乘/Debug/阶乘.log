@@ -1,0 +1,5 @@
+﻿  阶乘后求得结果一共有几个0.cpp
+C:\Users\94207\source\repos\阶乘\阶乘\阶乘后求得结果一共有几个0.cpp(10,13): warning C4477: “scanf_s”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 1 拥有了类型“__int64 *”
+C:\Users\94207\source\repos\阶乘\阶乘\阶乘后求得结果一共有几个0.cpp(10,13): message : 请考虑在格式字符串中使用“%lld”
+C:\Users\94207\source\repos\阶乘\阶乘\阶乘后求得结果一共有几个0.cpp(10,13): message : 请考虑在格式字符串中使用“%I64d”
+  阶乘.vcxproj -> C:\Users\94207\source\repos\阶乘\Debug\阶乘.exe

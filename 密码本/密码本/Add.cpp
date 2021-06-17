@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include"mypassword.h"
 void Add(struct USERINFO* p)
-{
+{   
     //if (Count == Maxsize)
     //{
     //    USERINFO* new_p = (USERINFO*)malloc(Maxsize * 2 * sizeof(USERINFO));

@@ -13,10 +13,12 @@ USERINFO* p = (USERINFO*)malloc(Maxsize * sizeof(USERINFO));
 USERINFO* new_p = NULL;
 
 int main()
-{
+   
+{   
     USERINFO MyAll = { 0 };
-
     int Select = 1;
+    Read(p, &Count);
+
     while (Select)
     {
         ShowMenu();
@@ -25,7 +27,7 @@ int main()
         switch (Select)
         {
         case ADD:
-        {
+        {   
             if (Count == Maxsize)
             {
                 USERINFO* new_p = NULL;
@@ -62,9 +64,11 @@ int main()
             break;
         }
         case SAVE:                               //6.保存文件
-
+            Save(p, Count);
+            system("pause");
             break;
-        case EXIT:                               //0.退出程序
+        case EXIT:        
+            Save(p, Count);
             printf("谢谢使用!\n");
             break;
         }

@@ -39,6 +39,12 @@
     <ClCompile Include="Check.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Save.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="read.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="mypassword.h">

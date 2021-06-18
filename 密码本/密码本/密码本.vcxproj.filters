@@ -36,13 +36,16 @@
     <ClCompile Include="Search.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Check.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Save.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="read.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="uncode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="incode.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

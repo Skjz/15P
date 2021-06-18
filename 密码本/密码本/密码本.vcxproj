@@ -141,13 +141,14 @@
   <ItemGroup>
     <ClCompile Include="Add.cpp" />
     <ClCompile Include="Change.cpp" />
-    <ClCompile Include="Check.cpp" />
     <ClCompile Include="Dele.cpp" />
+    <ClCompile Include="incode.cpp" />
     <ClCompile Include="menu.cpp" />
     <ClCompile Include="read.cpp" />
     <ClCompile Include="Save.cpp" />
     <ClCompile Include="Search.cpp" />
     <ClCompile Include="SeeAll.cpp" />
+    <ClCompile Include="uncode.cpp" />
     <ClCompile Include="密码本.cpp" />
   </ItemGroup>
   <ItemGroup>

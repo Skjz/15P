@@ -21,6 +21,7 @@ void Read(struct USERINFO* p, int* Count)
         fscanf_s(pFile, "%s\n", p[i].Website,20);
         fscanf_s(pFile, "%s\n", p[i].Username,20);
         fscanf_s(pFile, "%s\n", p[i].Password,20);
+       /* fscanf_s(pFile, "%s\n", p[i].Password,20);*/
         /* fread(p[i].Website, 1, 20, pFile);
          fread(p[i].Username, 1, 20, pFile);
          fread(p[i].Password, 1, 20, pFile);*/

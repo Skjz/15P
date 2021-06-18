@@ -34,5 +34,13 @@ void Change(struct USERINFO *p)
         scanf_s("%s", p[i].Username, 20);
         printf("ÇëÊäÈëÃÜÂë:>");
         scanf_s("%s", p[i].Password, 20);
+   /*     int j = 0;*/
+        /*       while (p[i].Password[j] != 0)
+               {
+                   p[i].Password[j] = p[i].Password[j] + 1;
+               }
+               */
+          
+          
     }
 }

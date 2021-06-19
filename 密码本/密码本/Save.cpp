@@ -14,6 +14,7 @@ void Save(struct USERINFO* p, int Count)
 
     assert(pFile);
     fwrite(&Count, 4, 1, pFile);
+    fwrite(&Maxsize, 4, 1, pFile);
     int i = 0;
     int j = 0;
 

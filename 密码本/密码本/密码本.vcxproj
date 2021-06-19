@@ -143,6 +143,7 @@
     <ClCompile Include="Change.cpp" />
     <ClCompile Include="Dele.cpp" />
     <ClCompile Include="incode.cpp" />
+    <ClCompile Include="login.cpp" />
     <ClCompile Include="menu.cpp" />
     <ClCompile Include="read.cpp" />
     <ClCompile Include="Save.cpp" />

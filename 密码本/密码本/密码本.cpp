@@ -10,9 +10,10 @@
 #define EXIT 0
 int Count = 0;
 int Maxsize = 5;
-USERINFO* p = (USERINFO*)malloc(Maxsize * sizeof(USERINFO));
-
+char Account[20] = { "lixiang" };
+char ThisPassword[20] = { "1234567" };
 //Incode* cp = (Incode*)malloc(Maxsize * sizeof(Incode));
+USERINFO* p = (USERINFO*)malloc(Maxsize * sizeof(USERINFO));
 
 int main()
    
@@ -20,7 +21,22 @@ int main()
    
     USERINFO MyAll = { 0 };
     int Select = 1;
-    Read(p,&Count);
+    Read(&p,&Count);
+   
+    int ret = 1;
+    while (1)
+    {
+        ret = Login(Account, ThisPassword);
+        if (ret == 0)
+        {
+            printf("µ«¬º≥…π¶\n");
+            system("pause");
+            break;
+        }
+        printf(" ‰»Î¥ÌŒÛ\n");
+        system("pause");
+    }
+    system("cls");
     Uncodepassword(p);
     while (Select)
     {   

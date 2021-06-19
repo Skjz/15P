@@ -18,7 +18,7 @@ void Add(struct USERINFO** pp)
     scanf_s("%s", (*pp)[Count].Username, 20);
     printf("ÇëÊäÈëÃÜÂë:>");
     scanf_s("%s", (*pp)[Count].Password, 20);
-    int i = 0;
+  
   
     /*p[Count].IncodePassword[i + 1] = '\0';*/
    /*  if (Count == Maxsize)

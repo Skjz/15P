@@ -10,34 +10,34 @@
 #define EXIT 0
 int Count = 0;
 int Maxsize = 5;
-char Account[20] = { "lixiang" };
-char ThisPassword[20] = { "1234567" };
-//Incode* cp = (Incode*)malloc(Maxsize * sizeof(Incode));
+char Account[20] = "lixiang";
+char ThisPassword[20] = "1234567";
 USERINFO* p = (USERINFO*)malloc(Maxsize * sizeof(USERINFO));
+
+//Incode* cp = (Incode*)malloc(Maxsize * sizeof(Incode));
 
 int main()
    
 {
-   
+    int ret = 0;
     USERINFO MyAll = { 0 };
     int Select = 1;
-    Read(&p,&Count);
-   
-    int ret = 1;
-    while (1)
+    Read(p,&Count);
+    Uncodepassword(p);
+   /* while (1)
     {
         ret = Login(Account, ThisPassword);
         if (ret == 0)
         {
-            printf("登录成功\n");
-            system("pause");
             break;
         }
         printf("输入错误\n");
         system("pause");
+        system("cls");
     }
-    system("cls");
-    Uncodepassword(p);
+    printf("登录成功\n");
+    system("pause");
+    system("cls");*/
     while (Select)
     {   
         ShowMenu();
@@ -96,6 +96,7 @@ int main()
             break;
         default:
             printf("输入错误");
+            system("pause");
             break;
             /*case 7:
                     printf("是否解密？输入除了0以外任意数字可以解密");

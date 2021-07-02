@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <time.h>
 
-void Write_Char(int x, int y, const char* str, int n,int Color)
+void Write_Char(int x, int y, const char* str, int n,int Color=15)
 {
     //用来设置光标具体坐标的pos
     COORD pos = { 2 * x,y };
@@ -29,7 +29,7 @@ struct Snake
     {
         if (clock()- m_LastTime> m_nSpeed)
         {
-            Write_Char(m_x, m_y, "移动", m_n, 1);
+            Write_Char(m_x, m_y, "移动", m_n);
             m_n++;
             m_LastTime = clock();
 

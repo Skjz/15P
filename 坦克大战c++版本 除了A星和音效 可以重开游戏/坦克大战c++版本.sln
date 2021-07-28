@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "坦克大战c++版本", "坦克大战c++版本\坦克大战c++版本.vcxproj", "{66B5D047-CF02-498D-A44F-73FEF6060902}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66B5D047-CF02-498D-A44F-73FEF6060902}.Debug|x64.ActiveCfg = Debug|x64
+		{66B5D047-CF02-498D-A44F-73FEF6060902}.Debug|x64.Build.0 = Debug|x64
+		{66B5D047-CF02-498D-A44F-73FEF6060902}.Debug|x86.ActiveCfg = Debug|Win32
+		{66B5D047-CF02-498D-A44F-73FEF6060902}.Debug|x86.Build.0 = Debug|Win32
+		{66B5D047-CF02-498D-A44F-73FEF6060902}.Release|x64.ActiveCfg = Release|x64
+		{66B5D047-CF02-498D-A44F-73FEF6060902}.Release|x64.Build.0 = Release|x64
+		{66B5D047-CF02-498D-A44F-73FEF6060902}.Release|x86.ActiveCfg = Release|Win32
+		{66B5D047-CF02-498D-A44F-73FEF6060902}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8874DEE6-21A9-4208-A592-7C4E72468A5F}
+	EndGlobalSection
+EndGlobal
